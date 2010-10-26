@@ -1,11 +1,11 @@
 %define name	t-lasku
 %define version	1.1.1
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:	Free Finnish invoicing software
+Summary:	Finnish invoicing software
 Group:		Office
 License:	BSD
 URL:		http://helineva.net/%{name}/
@@ -16,7 +16,7 @@ BuildRequires:	qt4-devel
 Requires:	qt4-database-plugin-sqlite
 
 %description
-T-lasku is a free Finnish invoicing software for Linux.
+T-lasku is a Finnish invoicing software for Linux.
 
 %prep
 %ifarch x86_64
