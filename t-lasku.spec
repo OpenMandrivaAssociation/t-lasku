@@ -1,13 +1,13 @@
 %define name	t-lasku
 %define version	1.1.1
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Summary:	Free Finnish invoicing software
 Group:		Office
-License:	GPLv3+
+License:	BSD
 URL:		http://helineva.net/%{name}/
 Source0:	http://helineva.net/%{name}/%{name}-%{version}-i386.tar.gz
 Source1:	http://helineva.net/%{name}/%{name}-%{version}-amd64.tar.gz
@@ -59,6 +59,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
+%doc COPYING
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
