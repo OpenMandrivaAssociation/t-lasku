@@ -61,4 +61,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
-%{_iconsbasedir}/*/apps/%{name}.png
+%{_iconsdir}/hicolor/*/apps/%{name}.png
