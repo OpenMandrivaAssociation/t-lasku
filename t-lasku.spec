@@ -40,7 +40,7 @@ cat > %{buildroot}%{_datadir}/applications/%{name}.desktop << EOF
 [Desktop Entry]
 Name=T-lasku
 GenericName=Invoicing software
-Comment=Free Finnish invoicing software
+Comment=Finnish invoicing software
 Terminal=false
 Exec=%{name}
 Icon=%{name}
