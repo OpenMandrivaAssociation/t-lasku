@@ -12,7 +12,7 @@ URL:		http://helineva.net/%{name}/
 Source0:	http://helineva.net/%{name}/%{name}-%{version}-i386.tar.gz
 Source1:	http://helineva.net/%{name}/%{name}-%{version}-amd64.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	qt4-devel
+BuildRequires:	qt4-devel >= 4:4.6
 Requires:	qt4-database-plugin-sqlite
 
 %description
