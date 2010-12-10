@@ -1,5 +1,5 @@
 %define name	t-lasku
-%define version	1.3.0
+%define version	1.4.0
 %define release	%mkrel 1
 
 Name:		%{name}
@@ -45,7 +45,7 @@ Terminal=false
 Exec=%{name}
 Icon=%{name}
 Type=Application
-Categories=Qt;Office;Finance;
+Categories=Qt;Office;Finance;X-MandrivaLinux-CrossDesktop;
 EOF
 
 # Install hicolor icons
