@@ -1,6 +1,6 @@
 %define name	t-lasku
 %define version	1.7.0
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -54,6 +54,10 @@ do
 	install -Dpm 644 images/%{name}-$i.png %{buildroot}%{_datadir}/icons/hicolor/$i/apps/%{name}.png
 done
 
+#translations
+mkdir -p %{buildroot}%{_datadir}/%{name}/translations/
+cp translations/* %{buildroot}%{_datadir}/%{name}/translations/
+
 %clean
 rm -rf %{buildroot}
 
@@ -61,5 +65,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc COPYING
 %{_bindir}/%{name}
+%{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
