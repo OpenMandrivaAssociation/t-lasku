@@ -1,5 +1,5 @@
 %define name	t-lasku
-%define version	1.9.5
+%define version	1.9.6
 %define release	%mkrel 1
 
 Name:		%{name}
