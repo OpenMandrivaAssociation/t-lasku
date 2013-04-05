@@ -1,17 +1,12 @@
-%define name	t-lasku
-%define version	1.9.7
-%define release	%mkrel 1
-
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		t-lasku
+Version:	1.9.7
+Release:	2
 Summary:	Finnish invoicing software
 Group:		Office
 License:	BSD
 URL:		http://helineva.net/%{name}/
 Source0:	http://helineva.net/%{name}/%{name}-%{version}-i386.tar.gz
 Source1:	http://helineva.net/%{name}/%{name}-%{version}-amd64.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	qt4-devel >= 4:4.6
 Requires:	qt4-database-plugin-sqlite
 
