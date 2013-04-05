@@ -1,3 +1,6 @@
+%define _enable_debug_packages %{nil}
+%define debug_package %{nil}
+
 Name:		t-lasku
 Version:	1.9.7
 Release:	2
