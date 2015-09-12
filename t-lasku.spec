@@ -3,7 +3,7 @@
 
 Name:		t-lasku
 Version:	1.9.7
-Release:	3
+Release:	4
 Summary:	Finnish invoicing software
 Group:		Office
 License:	BSD
