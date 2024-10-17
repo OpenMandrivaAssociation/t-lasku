@@ -7,7 +7,7 @@ Release:	4
 Summary:	Finnish invoicing software
 Group:		Office
 License:	BSD
-URL:		http://helineva.net/%{name}/
+URL:		https://helineva.net/%{name}/
 Source0:	http://helineva.net/%{name}/%{name}-%{version}-i386.tar.gz
 Source1:	http://helineva.net/%{name}/%{name}-%{version}-amd64.tar.gz
 BuildRequires:	qt4-devel >= 4:4.6
